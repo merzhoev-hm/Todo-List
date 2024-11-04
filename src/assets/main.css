@@ -1,0 +1,126 @@
+@import './base.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  background-color: #27292d;
+  color: white;
+}
+
+body #app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+body #app h1 {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+body #app form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+body #app form label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+body #app form input,
+body #app form button {
+  height: 48px;
+  box-shadow: none;
+  outline: none;
+  padding: 0 12px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin: 6px 0 12px;
+}
+
+body #app form input {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  color: inherit;
+}
+
+body #app form input:focus {
+  border: 2px solid #787dc0;
+}
+
+body #app button {
+  cursor: pointer;
+  background-color: #a0a4d9;
+  border: none;
+  color: #1f2023;
+  font-weight: bold;
+  outline: none;
+  border-radius: 6px;
+}
+
+body #app button:hover {
+  background-color: #8186ca;
+}
+
+body #app button:active {
+  background-color: #a4a8d6;
+}
+
+body #app h2 {
+  font-size: 22px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+  padding-bottom: 6px;
+}
+
+body #app ul {
+  padding: 10px 0;
+}
+
+body #app ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+body #app ul li span {
+  cursor: pointer;
+}
+
+body #app ul li .done {
+  text-decoration: line-through;
+  color: rgb(157, 255, 0);
+}
+
+body #app ul li .donebtn {
+  background: rgb(157, 255, 0);
+}
+
+body #app ul li button {
+  height: 30px;
+  width: 30px;
+  font-size: 12px;
+  padding: 6px;
+}
+
+body #app ul li div {
+  display: flex;
+  gap: 6px;
+}
+
+body #app ul li span {
+  cursor: pointer;
+}
+
+body #app h4 {
+  text-align: center;
+  opacity: 0.5;
+  margin: 0;
+}
